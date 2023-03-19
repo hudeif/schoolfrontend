@@ -69,7 +69,7 @@ function Header() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto" navbar>
-            <Dropdown as={Nav.Item}>
+            <Dropdown as={Nav.Item} className="mr-5">
               <Dropdown.Toggle
                 aria-expanded={false}
                 aria-haspopup={true}
